@@ -1,0 +1,48 @@
+ul {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+button {
+  background:rgba(16, 16, 16, 0.1);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 50%;
+  text-align: left;
+}
+
+.ans{
+  margin: 10px 0 0 20px;
+  font-size: 16px;
+  width: 50%;
+}
+
+.faqbg{
+  background-size: cover;
+  padding: 0%;
+  margin: 0%;
+  background-position: center center;
+  background-attachment:unset;
+  /* background-image: url('../images/faq.png'); */
+}
+
+.faqbg h1{
+  padding: 10px;
+  text-align: center;
+}
+
+.faqbg h3{
+  padding-left: 30px;
+}
+.faqbg{
+  height: 1000px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-k9hQLT-9Pz5ZPcPA8QiDHzxtlEI19q9BaA&usqp=CAU');
+}

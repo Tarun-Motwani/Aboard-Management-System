@@ -1,0 +1,255 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+#explore{
+    background: #ffffff;
+    padding: 3%;
+    text-align: center;
+}
+
+.logo-3{
+    height: 80px;
+    width: 70px;
+}
+
+.heading-explore{
+    background: linear-gradient(to left, #4f4f4f,#dcb57a);
+    border-radius: 0px;
+    height: 130px;
+    width: auto;
+    padding-left: 1.5%;
+
+}
+.heading-explore h1{
+    width: 100%;
+    margin: 0%;
+    padding-top: 10px;
+    font-size:30px;
+    position:absolute;
+    margin-top:10px;
+}
+.heading-explore p{
+    width: fit-content;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin: 0%;
+    position:absolute;
+    margin-top:70px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 50em;
+    animation: type 6s steps(100, end) infinite; 
+}
+
+.forms{
+    width: fit-content;
+    display: block;
+    position:absolute;
+    margin-top: 3%;
+    margin-left: 75%;
+    padding: 0%;
+}
+
+
+input.search{
+    width: 250px;
+    height: 40px;
+    border-color: #ffffff;
+    border-radius: 0%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    color: #0f011b;
+    text-align:center;
+}
+
+.search-btn{
+    border: none transparent;
+    width:55px;
+    height: 40px;
+    background: #ffffff;
+    color: #060505;
+    padding: 0%;
+    border-radius: 0%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+/* CARD */
+
+
+.card{
+    color: #000;
+    text-decoration: none;
+    border: none;
+    width: 325px;
+    height: 300px;
+    margin:0.2%;
+    padding: 0px;
+    /* text-align: left */
+    /* z-index: -1; */
+    display: inline-flex;
+    position:relative;
+     /* box-shadow:inset 0px 1px 25px 0px #dcdcdc; */
+
+}
+
+div.explore-bg{
+    width: 325px;
+    height: 300px;
+    margin:0.2%;
+    padding: 0px;
+    text-align: left;
+    display: inline-flex;
+    border-radius: 30px;
+    position:relative;
+     /* box-shadow:0 10px 20px 3px #474747; */
+   
+}
+/* 
+ div.feedback-row-1{
+    width: 100%;
+    height: 70%;
+    position:absolute;
+    display: block;
+    } */
+
+   
+.explore-col-1{
+    background:#ffffff;                     
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow:0 10px 20px 3px #000;
+    margin: 5%;
+    cursor: pointer;
+    transition: transfrom .5px;
+}
+
+
+.explore-col-1:hover{
+    transform: translateY(-10px);
+    box-shadow:0 10px 20px 5px #dcb57a ;
+    border: solid 1px #efeded;
+}
+
+
+.explore-col-1 img{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+
+.explore-name{
+    display:contents;
+    align-items: center;
+    margin: 20px 0; 
+}
+
+.line{
+    /* padding: ; */
+    background-color:#707070;
+    width: 100%;
+    height: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.course-details{
+    margin-bottom: 20px;
+}
+
+.explore-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course-details small,.explore-info small{
+    color:#707070;
+}
+.explore-info p{
+    padding-left: 1%;
+}
+.course-details a,.explore-name a{
+    color: #000;
+    text-decoration: none;
+}
+.course-details a:hover,.explore-name a:hover{
+    color:#dcb57a ;
+    text-decoration: underline #dcb57a ;
+    font-size: 18px;
+
+}
+
+
+.menu{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top:90%;
+    border-radius: 30px;
+    z-index: 5;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+    animation-name: example;
+    animation-duration: 8s;
+}
+@keyframes example {
+    0%   {background-color:red; right:30px; top:80px;}
+    25%  {background-color:yellow; right:40px; top:100%;}
+    50%  {background-color:blue; right:50px; bottom:50%;}
+    75%  {background-color:green; right:40px; top:10%;}
+    100% {background-color:red; right:30px; bottom:10%;}
+  }
+.menu:hover{
+    text-align: center;
+    color: #000000;
+    background: linear-gradient(127deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(217deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(360deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+    width: 55px;
+    height: 65px;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

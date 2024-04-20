@@ -1,0 +1,38 @@
+form {
+    display:flexbox;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom:10px;
+  }
+  
+  input, textarea {
+    padding: 0.1rem;
+    margin-bottom: 10rem;
+    border: 1px solid #080707;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  textarea {
+    height: 50px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #0077B5;
+    color: rgb(5, 5, 5);
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00639B;
+  }

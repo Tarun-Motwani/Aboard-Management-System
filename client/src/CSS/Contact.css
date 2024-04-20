@@ -1,0 +1,179 @@
+.contactus-bg{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyu4RZ0KxTBzrtO_h6y1-Ti9pQiUeaZ8MV0Q&usqp=CAU);
+  z-index: -5;
+}
+
+.contactus-bg img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  display:block;
+  position: relative;
+  margin-left: 46% ;
+  position: absolute;
+}
+.contactus-bg h1{
+    text-align: center; 
+    z-index: 5%;
+    position:absolute;
+    margin-left: 42%;
+    margin-top: 3.5%;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 7.5em;
+    animation: type 4s steps(60, end) infinite; 
+}
+
+.contactus{
+  width: 100%;
+  height: 60%;
+  padding: 15% 8% 0% 8%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: stretch;
+  position: relative;
+}
+
+.contactus-contents{
+  height: 500px;
+  width: 500px;
+  text-decoration: none;
+  display:block;
+  color: #e7e7e7;
+}
+.contactus-contents h2{
+  text-align:left;
+  font-size: 50px;
+}
+
+.contactus-contents h6{
+  text-align: justify;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.contactus-div{
+  height: 425px;
+  width: 400px;
+  padding: 3%;
+  border-radius: 5px;
+  background:rgba(255, 255, 255, 0.1);
+  z-index: 2;
+  position:relative;
+}
+
+.contactus-div input,textarea{
+  width: 100%;
+  color: #ffffff;
+  padding: 11px;
+  border: 1px solid #e5b2ecd1;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 14px;
+  margin-top: 9px;
+  font-size: 9px;
+  background-color: rgba(0, 0, 0, 0.363);
+  border-radius: 24px;
+}
+
+.contactus-form{
+  position:absolute;
+  display:inline-flexbox;
+  text-align:left;
+  flex-direction: column;
+  width: 50%;
+
+}
+.contactus-form label {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom:10px;
+}
+
+.contactus-form input,textarea{
+  padding:0.1rem;
+  margin-bottom:10px;
+  border: 1px solid #0a0a0a;
+  border-radius: 7px;
+  font-size: 1.2rem;
+  width: 250px;
+}
+
+.contactus-form textarea {
+  height:70px;
+  width:250px;
+}
+
+.contactus-form button {
+  height: 45px;
+  width: 130px;
+  text-align: center;
+  background-color: rgb(124, 124, 158);
+  background-image: linear-gradient(to bottom right, rgb(59, 59, 111), lightblue);
+  border: 2px solid rgb(40, 40, 74);
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px rgb(94, 94, 156);
+  color: rgb(2, 2, 2);
+  font-size: 16px;
+  padding: 10px 20px;
+  text-shadow: 1px 1px rgb(38, 38, 53);
+  transition: all 0.5s ease;
+}
+
+.contactus-form button:hover{
+  background-color: rgb(147, 173, 181);
+  background-image: linear-gradient(to bottom right, lightblue, rgb(80, 80, 134));
+  border-color: rgb(160, 194, 205);
+  box-shadow: 4px 4px 4px rgb(107, 117, 120);
+  color: black;
+  text-shadow: 2px 2px rgb(104, 125, 132);
+  transform: scale(1.1);
+  }
+  
+  .contactus-center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+  
+  .contactus-btn {
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    background:transparent;
+    border: 1px solid #5b5f6e;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  .border {
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .contactus-btn:hover {
+    transition: 1s ease-in-out;
+    background: #566a7d;
+  }
+  
+  .contactus-btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .contactus-btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }

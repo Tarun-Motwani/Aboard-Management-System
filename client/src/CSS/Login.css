@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+section{
+    width: 100%;
+    background-image: url('../images/loginbg.png');
+    background-size:cover;
+    background-position:center center ;
+    background-attachment:fixed;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.login {
+    position:relative;
+    padding-top:70px;
+}
+
+section .form_data{
+    width: 200%;
+    position: absolute;
+    max-width: 700px;
+    margin: 0% 28% 0% 30%;
+    padding: 3% 1%;
+    box-shadow: 1px 1px 1000px 0px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:rgba(0,0,0, 0.2);;
+    border-radius: 60px;
+}
+.form_data-1{
+    width: 100%;
+    position: absolute;
+    max-width: 700px;
+    margin: 0% 28% 12% 30%;
+    padding: 2.5% 1% -10% 1%;
+    box-shadow: 1px 1px 1000px 0px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:rgba(0,0,0, 0.2);;
+    border-radius: 60px;
+}
+
+.form_heading
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_heading-1
+{
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_data h1,
+.form_data-1 h1{
+    font-size: 34px;
+    color:#ffffff;
+    font-family:catamaran ;
+}
+
+.form_data p,
+ .form_data-1 p{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top:9px;
+    font-weight: bolder;
+}
+
+.form_data p:hover,
+.form_data-1 p:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+.form_data form,
+.form_data-1 form{
+    margin-top: 0%;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.form_data form .form_input input,
+.form_data-1 form .form_input input{
+    width: 100%;
+    color: #ffffff;
+    padding: 11px;
+    border: 1px solid #340c3ad1;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 14px;
+    margin-top: 9px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.363);
+    font-style: italic;
+    font-weight: bolder;
+    border-radius: 24px;
+}
+
+.form_data form .form_input label,
+.form_data-1 form .form_input label
+{
+    font-weight: 600;
+    font-size: 15px;
+    font-style: italic;
+    color: #ecfdd8;
+    font-weight: bolder;
+}
+
+.form_input .two,
+.form_input .two
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form_data form .form_input input:focus,
+.form_data-1 form .form_input input:focus
+{
+    border:2px solid rgba(216, 197, 121, 0.968);
+    color: #ffffff;
+}
+
+
+.form_data form .form_input input::placeholder,
+.form_data-1 form .form_input input::placeholder
+{
+    color: #f9f9f9fc;
+    letter-spacing: .5px;
+    font-size: 12px;
+}
+
+.form_input .showpass
+{
+    position: absolute;
+    right: 0;
+    top:1px;
+    padding: 8px 18px;
+    margin-right: 5px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #37011d;
+    background:linear-gradient(to right, #cfc696, #e5c391);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.form_input .showpass:hover
+{
+    background:linear-gradient(to right, #ccb087, #6e6e6e);
+    color:  #000000;
+}
+
+form .btn{
+    display:block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background:linear-gradient(to right, #cfc696, #e5c391);
+    color: #450024;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 48px;
+    font-weight: bolder;
+    font-style: italic;
+    }
+
+
+form .btn:hover{
+    background:linear-gradient(to right, #ccb087, #6e6e6e);
+    color:  #000000;
+}
+
+.form_data form p,
+.form_data-1 form p
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form_data form a,
+.form_data-1 form a
+{
+    color: #000000;
+    border-bottom: 2px solid #8694a8;
+}
+.form_data form a:hover,
+.form_data-1 form a:hover
+{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+  
