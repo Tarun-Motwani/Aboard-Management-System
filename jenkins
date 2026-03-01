@@ -2,10 +2,34 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repository') {
+
+        stage('Clone') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/Tarun-Motwani/Aboard-Management-System.git'
+                git 'https://github.com/Tarun-Motwani/Aboard-Management-System.git'
+            }
+        }
+
+        stage('Install Backend') {
+            steps {
+                dir('server') {
+                    bat 'npm install'
+                }
+            }
+        }
+
+        stage('Install Frontend') {
+            steps {
+                dir('client') {
+                    bat 'npm install'
+                }
+            }
+        }
+
+        stage('Run Selenium Tests') {
+            steps {
+                dir('Aboard-Selenium-Tests') {
+                    bat 'mvn clean test'
+                }
             }
         }
     }
