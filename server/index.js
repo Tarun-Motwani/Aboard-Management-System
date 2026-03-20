@@ -19,7 +19,7 @@ app.use(require('./router/auth'));
 // app.get("/",(req,res)=>{
 //  res.render('index')
 // })
-const PORT = process.env.PORT 
+const PORT = process.env.PORT || 8000;
 
 // Middleware
 
